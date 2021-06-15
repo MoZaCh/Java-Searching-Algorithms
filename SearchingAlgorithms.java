@@ -7,12 +7,11 @@ import java.util.*;
  * @author mzcho
  */
 public class SearchingAlgorithms {
-    
-    /**
-     * 
-     * @param arr
-     * @param searchValue
-     * @return 
+        
+    /** Searches through an array for a specific element (divide and conquer).
+     * @param arr - The array to be searched
+     * @param searchValue - The element to be searched for.
+     * @return - A boolean true or false.
      */
     public static boolean binarySearch(int[] arr, int searchValue) {
         
