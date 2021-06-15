@@ -36,6 +36,22 @@ public class SearchingAlgorithms {
         
         else return true;
     }
+    
+    
+    /**
+     * Searches through an array for a specific element (sequentially).
+     * @param arr - The array to be searched.
+     * @param searchValue -  The specific element to be searched for.
+     * @return - A boolean true if element located or false if not found.
+     */
+    public static boolean linearSearch(int[] arr, int searchValue) {
+        
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == searchValue)
+                return true;
+        }
+        return false;
+    }
       
     
     /**
