@@ -11,7 +11,7 @@ public class SearchingAlgorithms {
     /** Searches through an array for a specific element (divide and conquer).
      * @param arr - The array to be searched
      * @param searchValue - The element to be searched for.
-     * @return - A boolean true or false.
+     * @return - A boolean true if element is found or false if not found.
      */
     public static boolean binarySearch(int[] arr, int searchValue) {
         
