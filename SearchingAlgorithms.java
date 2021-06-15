@@ -58,7 +58,30 @@ public class SearchingAlgorithms {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        int [] arr ={0, 3, 5, 8, 10, 20 }; //Declaring array
+        boolean result = linearSearch(arr, 61);
+        System.out.println(result);
+        
+        boolean result2;
+        
+        for (int i =0; i < arr.length; i++) {
+            System.out.println(arr[i]);
+            result2 = binarySearch(arr, arr[i]);
+            
+            if (result2 == true) {
+                System.out.println("Found!");
+            }
+            else System.out.println("Not Found!");
+        }
+        
+        for (int i =0; i <= 20; i++) {
+            System.out.println(i);
+            result2 = binarySearch(arr, i);
+            
+            if (result2 == true) {
+                System.out.println("Found!");
+            }
+            else System.out.println("Not Found!");
+        }
     }
-    
 }
